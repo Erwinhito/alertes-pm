@@ -1,0 +1,18 @@
+{
+  "name": "pm-alerts",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "scan": "node scraper/run.js",
+    "scan:dry": "node scraper/run.js --dry-run --verbose",
+    "test": "node --test scraper/*.test.js",
+    "push:test": "node scraper/push-test.js",
+    "web": "python3 -m http.server 4173 --directory web"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}

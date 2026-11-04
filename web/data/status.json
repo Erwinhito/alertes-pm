@@ -1,0 +1,338 @@
+{
+ "updatedAt": "2026-11-04T09:20:45.202Z",
+ "sources": [
+  {
+   "company": "Google",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 16,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Microsoft",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 20,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Amazon",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 23,
+   "kept": 2,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Apple",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 130,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Meta",
+   "category": "Tech",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "Netflix",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 8,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "DocuSign",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 136,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Spotify",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 85,
+   "kept": 2,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Discord",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 31,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Stripe",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 754,
+   "kept": 3,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Datadog",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 396,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Airbnb",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 210,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Uber",
+   "category": "Tech",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "Salesforce",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 61,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Adobe",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 13,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Databricks",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 918,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "OpenAI",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 813,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Anthropic",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 680,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Revolut",
+   "category": "Tech",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "Figma",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 145,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Notion",
+   "category": "Tech",
+   "state": "ok",
+   "raw": 146,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Mistral",
+   "category": "Tech",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "JP Morgan",
+   "category": "Banque",
+   "state": "ok",
+   "raw": 358,
+   "kept": 4,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Goldman Sachs",
+   "category": "Banque",
+   "state": "ok",
+   "raw": 356,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Morgan Stanley",
+   "category": "Banque",
+   "state": "ok",
+   "raw": 4,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Barclays",
+   "category": "Banque",
+   "state": "ok",
+   "raw": 36,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Citi",
+   "category": "Banque",
+   "state": "ok",
+   "raw": 120,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "BNP Paribas",
+   "category": "Banque",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "HSBC",
+   "category": "Banque",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "EY",
+   "category": "Conseil",
+   "state": "ok",
+   "raw": 75,
+   "kept": 3,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "PwC",
+   "category": "Conseil",
+   "state": "ok",
+   "raw": 19,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "Accenture",
+   "category": "Conseil",
+   "state": "ok",
+   "raw": 200,
+   "kept": 1,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "BCG",
+   "category": "Conseil",
+   "state": "ok",
+   "raw": 94,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-04T09:20:45.202Z"
+  },
+  {
+   "company": "KPMG",
+   "category": "Conseil",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "Deloitte",
+   "category": "Conseil",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "McKinsey",
+   "category": "Conseil",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  },
+  {
+   "company": "Bain",
+   "category": "Conseil",
+   "state": "uncovered",
+   "raw": null,
+   "kept": null,
+   "error": null,
+   "lastSuccess": null
+  }
+ ]
+}
