@@ -17,6 +17,10 @@ const store = {
 let data = { jobs: [], updatedAt: null };
 let status = { sources: [] };
 let loadFailed = false;
+let refreshing = false;
+let refreshNote = null;
+let refreshFailed = false;
+let refreshNoteTimer = null;
 const filters = store.get('filters', { city: null, category: null });
 
 // Petit assistant : le texte passe toujours par textContent, jamais en HTML.
@@ -99,8 +103,16 @@ function listView() {
     el('header', { class: 'top' },
       el('div', {},
         el('h1', {}, 'Alertes PM'),
-        el('p', { class: 'sub' }, data.updatedAt ? `${count} · mis à jour le ${updatedLabel(data.updatedAt)}` : count)),
-      el('a', { class: 'icon-btn', href: '#/settings', 'aria-label': 'Réglages et sources', style: 'text-decoration:none' }, 'Réglages')),
+        el('p', { class: 'sub' }, data.updatedAt ? `${count} · mis à jour le ${updatedLabel(data.updatedAt)}` : count),
+        refreshNote ? el('p', { class: `sub refresh-note${refreshFailed ? ' failed' : ''}`, id: 'refresh-note' }, refreshNote) : null),
+      el('div', { class: 'top-actions' },
+        el('button', {
+          class: 'icon-btn refresh',
+          'aria-label': 'Actualiser les offres',
+          'aria-busy': String(refreshing),
+          onclick: refresh,
+        }, el('span', { 'aria-hidden': 'true' }, '↻')),
+        el('a', { class: 'icon-btn', href: '#/settings', 'aria-label': 'Réglages et sources', style: 'text-decoration:none' }, 'Réglages'))),
     el('div', { class: 'filters' },
       CITIES.map((city) => chip(city, filters.city === city, () => toggleFilter('city', city))),
       el('span', { class: 'divider' }),
@@ -252,10 +264,36 @@ async function load() {
     data = jobs;
     status = sources;
     loadFailed = false;
+    render();
+    return true;
   } catch {
     loadFailed = !data.jobs.length;
+    render();
+    return false;
   }
+}
+
+// Recharge ce que le robot a publié. Il ne relance pas de scan : ça demanderait
+// de mettre une clé GitHub dans cette page, qui est publique.
+async function refresh() {
+  if (refreshing) return;
+  const known = new Set(data.jobs.map((job) => job.id));
+  clearTimeout(refreshNoteTimer);
+  refreshing = true;
+  refreshNote = null;
   render();
+  const ok = await load();
+  const added = data.jobs.filter((job) => !known.has(job.id)).length;
+  refreshing = false;
+  refreshFailed = !ok;
+  if (!ok) refreshNote = 'Actualisation impossible. Vérifie ta connexion.';
+  else if (added) refreshNote = `${added} nouvelle${added > 1 ? 's' : ''} offre${added > 1 ? 's' : ''}`;
+  else refreshNote = 'Déjà à jour';
+  render();
+  refreshNoteTimer = setTimeout(() => {
+    refreshNote = null;
+    document.getElementById('refresh-note')?.remove();
+  }, 4000);
 }
 
 addEventListener('hashchange', () => { render(); scrollTo(0, 0); });

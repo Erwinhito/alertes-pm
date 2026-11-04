@@ -1,5 +1,5 @@
 // Tourne en arrière-plan : garde l'app disponible et reçoit les notifications.
-const CACHE = 'alertes-pm-v1';
+const CACHE = 'alertes-pm-v2';
 const SHELL = ['./', 'index.html', 'app.js', 'config.js', 'styles.css', 'manifest.webmanifest', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (event) => {
@@ -16,7 +16,11 @@ self.addEventListener('activate', (event) => {
 
 // Réseau d'abord, pour toujours montrer les dernières offres. Le cache sert hors connexion.
 self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET' || new URL(event.request.url).origin !== self.location.origin) return;
+  const url = new URL(event.request.url);
+  if (event.request.method !== 'GET' || url.origin !== self.location.origin) return;
+  // Les offres passent directement par le réseau : chaque actualisation a une adresse
+  // différente, et les garder remplirait le téléphone de copies.
+  if (url.searchParams.has('t')) return;
   event.respondWith(
     fetch(event.request)
       .then((response) => {

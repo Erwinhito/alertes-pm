@@ -54,6 +54,16 @@ button { background: none; border: 0; padding: 0; cursor: pointer; }
 h1 { margin: 0; font-size: 28px; line-height: 1.15; letter-spacing: -.02em; }
 .sub { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
 .icon-btn { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; color: var(--accent); }
+.top-actions { flex: none; display: flex; align-items: center; gap: 4px; }
+.refresh { font-size: 24px; font-weight: 400; line-height: 1; }
+.refresh span { display: block; }
+.refresh[aria-busy="true"] span { animation: spin .8s linear infinite; }
+.refresh-note { color: var(--new); font-weight: 600; }
+.refresh-note.failed { color: var(--bad); }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .refresh[aria-busy="true"] span { animation: none; opacity: .5; }
+}
 
 .filters { display: flex; gap: 8px; overflow-x: auto; margin: 4px -16px 14px; padding: 2px 16px; scrollbar-width: none; }
 .filters::-webkit-scrollbar { display: none; }
