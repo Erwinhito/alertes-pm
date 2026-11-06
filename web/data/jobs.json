@@ -1,6 +1,24 @@
 {
- "updatedAt": "2026-11-05T20:15:18.823Z",
+ "updatedAt": "2026-11-06T01:06:04.746Z",
  "jobs": [
+  {
+   "id": "google-88601134075126470",
+   "company": "Google",
+   "category": "Tech",
+   "title": "Product Manager, GDM Robotics, DeepMind",
+   "cities": [
+    "Londres"
+   ],
+   "url": "https://www.google.com/about/careers/applications/jobs/results/88601134075126470",
+   "postedAt": "2026-11-05T22:39:38.000Z",
+   "salary": null,
+   "experience": {
+    "label": "7 ans et +",
+    "sentence": "7 years of experience in product management, including taking technical products from concept to launch."
+   },
+   "description": "As a Product Manager in GDM Robotics, you will work at the intersection of frontier research, physical systems, and developer platforms. You will turn hard research and hardware constraints into clear product strategy and roadmaps, partner closely with research scientists and engineers, and get our models into real-world use with internal teams and external partners. Depending on your background, you may focus on areas such as simulation and developer experience, or physical AI safety, security, and evaluation.\nArtificial intelligence will be one of humanity’s most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority.\nWe are pushing the boundaries across multiple domains. Our global teams offer diverse learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort.\nIndividual pay is determined by factors including job-related skills, experience, and relevant education or training.\n\nUS: $192000 - $278000 (USD) + 20% bonus target + equity + benefits\n\nLearn more about benefits at Google.\nResponsibilities\n\n• Define product strategy, requirements, and roadmaps for GDM Robotics models and platform capabilities.\n\n• Partner with research scientists and engineers to turn research breakthroughs into reliable products and tools.\n\n• Establish benchmarks, evaluations, and success metrics that track model quality, safety, and real-world usefulness.\n\n• Drive internal dogfooding and early partner deployments to pressure-test products before broad launch.\n\n• Lead launches end to end with partners across Google, including Cloud, Responsibility & Safety, Policy, and Legal, to drive real-world impact.\n\nMinimum qualifications:\n\n• Bachelor's degree in Computer Science, Robotics, Mechanical/Electrical Engineering, Physics, a related technical field, or equivalent practical experience.\n\n• 7 years of experience in product management, including taking technical products from concept to launch.\n\n• Experience in robotics, through a robotics degree or prior work in the robotics industry.\n\nPreferred qualifications:\n\n• Experience with robotics safety, functional safety, or safety-critical systems.\n\n• Experience with security for connected devices, robots, or AI systems.\n\n• Experience with simulation, synthetic data, or developer tools, including building or commercializing APIs and SDKs.\n\n• Experience designing evaluations, benchmarks, or reliability metrics for AI/ML or hardware-in-the-loop systems.\n\n• Experience with AI/ML systems such as foundation models, multimodal models, or Vision-Language-Action models.\n\n• Ability to drive ambiguous, zero-to-one initiatives in a fast-paced, research-driven environment, and to align research, engineering, and partner teams.\n\n• Bachelor's degree in Computer Science, Robotics, Mechanical/Electrical Engineering, Physics, a related technical field, or equivalent practical experience.\n\n• 7 years of experience in product management, including taking technical products from concept to launch.\n\n• Experience in robotics, through a robotics degree or prior work in the robotics industry.",
+   "firstSeenAt": "2026-11-06T01:06:04.746Z"
+  },
   {
    "id": "jp-morgan-210801504",
    "company": "JP Morgan",
