@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-11-19T18:37:25.958Z",
+ "updatedAt": "2026-11-20T01:12:17.850Z",
  "sources": [
   {
    "company": "Google",
    "category": "Tech",
    "state": "ok",
-   "raw": 8,
+   "raw": 9,
    "kept": 1,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Microsoft",
@@ -17,7 +17,7 @@
    "raw": 22,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Amazon",
@@ -26,15 +26,15 @@
    "raw": 20,
    "kept": 2,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Apple",
    "category": "Tech",
-   "state": "ok",
-   "raw": 121,
-   "kept": 0,
-   "error": null,
+   "state": "error",
+   "raw": null,
+   "kept": null,
+   "error": "The operation was aborted due to timeout",
    "lastSuccess": "2026-11-19T18:37:25.958Z"
   },
   {
@@ -49,29 +49,29 @@
   {
    "company": "Netflix",
    "category": "Tech",
-   "state": "ok",
-   "raw": 10,
-   "kept": 0,
-   "error": null,
+   "state": "error",
+   "raw": null,
+   "kept": null,
+   "error": "HTTP 429",
    "lastSuccess": "2026-11-19T18:37:25.958Z"
   },
   {
    "company": "DocuSign",
    "category": "Tech",
    "state": "ok",
-   "raw": 134,
+   "raw": 133,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Spotify",
    "category": "Tech",
    "state": "ok",
-   "raw": 92,
+   "raw": 94,
    "kept": 1,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Discord",
@@ -80,34 +80,34 @@
    "raw": 27,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Stripe",
    "category": "Tech",
    "state": "ok",
-   "raw": 780,
+   "raw": 772,
    "kept": 3,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Datadog",
    "category": "Tech",
    "state": "ok",
-   "raw": 377,
+   "raw": 380,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Airbnb",
    "category": "Tech",
    "state": "ok",
-   "raw": 199,
+   "raw": 202,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Uber",
@@ -121,11 +121,11 @@
   {
    "company": "Salesforce",
    "category": "Tech",
-   "state": "error",
-   "raw": null,
-   "kept": null,
-   "error": "HTTP 429",
-   "lastSuccess": "2026-11-19T09:27:11.514Z"
+   "state": "ok",
+   "raw": 54,
+   "kept": 0,
+   "error": null,
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Adobe",
@@ -140,28 +140,28 @@
    "company": "Databricks",
    "category": "Tech",
    "state": "ok",
-   "raw": 901,
+   "raw": 898,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "OpenAI",
    "category": "Tech",
    "state": "ok",
-   "raw": 840,
+   "raw": 849,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Anthropic",
    "category": "Tech",
    "state": "ok",
-   "raw": 640,
+   "raw": 637,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Revolut",
@@ -176,19 +176,19 @@
    "company": "Figma",
    "category": "Tech",
    "state": "ok",
-   "raw": 144,
+   "raw": 145,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Notion",
    "category": "Tech",
    "state": "ok",
-   "raw": 169,
+   "raw": 167,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Mistral",
@@ -206,7 +206,7 @@
    "raw": 368,
    "kept": 4,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Goldman Sachs",
@@ -215,7 +215,7 @@
    "raw": 23,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "Morgan Stanley",
@@ -269,7 +269,7 @@
    "raw": 75,
    "kept": 3,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "PwC",
@@ -293,10 +293,10 @@
    "company": "BCG",
    "category": "Conseil",
    "state": "ok",
-   "raw": 89,
+   "raw": 92,
    "kept": 0,
    "error": null,
-   "lastSuccess": "2026-11-19T18:37:25.958Z"
+   "lastSuccess": "2026-11-20T01:12:17.850Z"
   },
   {
    "company": "KPMG",
